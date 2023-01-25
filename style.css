@@ -1,0 +1,27 @@
+
+button{
+    background-color: blanchedalmond;
+padding :1%;
+border-radius: 25px;
+width: 50%;
+border :none;
+margin-left:25%;
+margin-top: 30%;
+opacity: 0.5;
+}
+button:hover{
+    animation: blinkingBackground 2s infinite;
+	}
+	@keyframes blinkingBackground{
+		0%		{ background-color: #10c018;
+                  box-shadow: 5px 10px #888888;}
+		25%		{ background-color: #1056c0;
+                   box-shadow: 5px 10px #10c018;}
+		50%		{ background-color: #ef0a1a;
+            box-shadow: 5px 10px #930606;}
+		75%		{ background-color: #254878;
+            box-shadow: 5px 10px #881875;}
+		100%	        { background-color: #04a1d5;
+            box-shadow: 5px 10px #1bb3abc6;}
+	}
+   
